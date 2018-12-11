@@ -1,0 +1,94 @@
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Dec  7 20:35:51 2018] ***
+compiled with version: 7.3.0 on 07 December 2018 09:59:16
+os: Linux-4.15.0-42-generic #45-Ubuntu SMP Thu Nov 15 19:32:57 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /home/banxian/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/banxian/.virtualenvs/py3_test1/bin/uwsgi
+chdir() to /home/banxian/dailyfresh
+your processes number limit is 23513
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:46053 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+Set PythonHome to /home/banxian/dailyfresh
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007f2006d6d740 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Dec  7 20:39:10 2018] ***
+compiled with version: 7.3.0 on 07 December 2018 09:59:16
+os: Linux-4.15.0-42-generic #45-Ubuntu SMP Thu Nov 15 19:32:57 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /home/banxian/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/banxian/.virtualenvs/py3_test1/bin/uwsgi
+chdir() to /home/banxian/dailyfresh
+your processes number limit is 23513
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:39929 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+Set PythonHome to /home/banxian/dailyfresh
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007f3b034cc740 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Dec  7 20:43:40 2018] ***
+compiled with version: 7.3.0 on 07 December 2018 09:59:16
+os: Linux-4.15.0-42-generic #45-Ubuntu SMP Thu Nov 15 19:32:57 UTC 2018
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /home/banxian/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/banxian/.virtualenvs/py3_test1/bin/uwsgi
+chdir() to /home/banxian/dailyfresh
+your processes number limit is 23513
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:46659 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+Set PythonHome to /home/banxian/.virtualenvs/py3_test1
+Python main interpreter initialized at 0x55f1ea704700
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55f1ea704700 pid: 64027 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 64027)
+spawned uWSGI worker 1 (pid: 64029, cores: 2)
+spawned uWSGI http 1 (pid: 64030)
+[pid: 64029|app: 0|req: 1/1] 127.0.0.1 () {40 vars in 749 bytes} [Fri Dec  7 20:43:50 2018] GET /index => generated 6503 bytes in 349 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 64029|app: 0|req: 3/2] 127.0.0.1 () {38 vars in 689 bytes} [Fri Dec  7 20:43:50 2018] GET /static/css/reset.css => generated 94 bytes in 116 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 64029|app: 0|req: 4/3] 127.0.0.1 () {38 vars in 694 bytes} [Fri Dec  7 20:43:50 2018] GET /static/js/jquery-1.12.4.min.js => generated 104 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 64029|app: 0|req: 5/4] 127.0.0.1 () {38 vars in 686 bytes} [Fri Dec  7 20:43:50 2018] GET /static/js/jquery-ui.min.js => generated 100 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 64029|app: 0|req: 6/5] 127.0.0.1 () {38 vars in 687 bytes} [Fri Dec  7 20:43:50 2018] GET /static/css/main.css => generated 93 bytes in 119 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 64029|app: 0|req: 6/6] 127.0.0.1 () {38 vars in 670 bytes} [Fri Dec  7 20:43:50 2018] GET /static/js/slide.js => generated 92 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 64029|app: 0|req: 7/7] 127.0.0.1 () {38 vars in 714 bytes} [Fri Dec  7 20:43:50 2018] GET /static/images/logo.png => generated 96 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 64029|app: 0|req: 8/8] 127.0.0.1 () {42 vars in 745 bytes} [Fri Dec  7 20:43:50 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 64030)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
